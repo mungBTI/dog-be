@@ -19,7 +19,7 @@ const { handleAuthError } = require("./middlewares/errorHandler");
 const app = express();
 connectDB();
 
-require("./batch/dailyEmailJob");
+// require("./batch/dailyEmailJob");
 
 app.use(
   cors({
